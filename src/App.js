@@ -1,7 +1,7 @@
-import Home from "./components/home";
-import About from "./components/about";
-import Courses from "./components/courses";
-import Layout from "./components/layout";
+import Home from "./components/Home";
+import About from "./components/Aboutus";
+import Courses from "./components/Courses";
+import Layout from "./components/Layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap.bundle"
@@ -20,4 +20,4 @@ const App = ()=>{
     </BrowserRouter>
   )
 }
-export default App 
+export default App

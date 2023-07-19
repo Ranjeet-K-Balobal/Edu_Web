@@ -2,12 +2,12 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-light " >
         <div class="container-fluid"style={{display:"flex",justifyContent:"space-between"}}>
-          <a class="navbar-brand" href="/">
-          Lernx
+          <a class="navbar-brand" href="#" style={{fontSize:30 }} >
+          E-learn
           </a>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHzzoYRwluwLSphnKZn7s9lYiGvjY0-bT6ew&usqp=CAU" style={{height:"2rem",}} alt=".."></img>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHzzoYRwluwLSphnKZn7s9lYiGvjY0-bT6ew&usqp=CAU" style={{height:"2rem",}}></img>
           <button
             class="navbar-toggler"
             type="button"
